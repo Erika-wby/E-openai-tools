@@ -4,11 +4,11 @@ from .key import API_KEY
 openai.api_key = API_KEY
 
 
-def joineer(list):
+def joiner(list):
     return "".join(list)
 
 
-def reader(list):
+def printer(list):
     [print(x) for x  in list]
 
 

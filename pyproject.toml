@@ -4,7 +4,7 @@ version = "0.1.2"
 description = ""
 authors = ["Erikaospace <erika@spacee.com>"]
 readme = "README.md"
-packages = [{include = "openai_tools"}]
+packages = [{include = "openai"}]
 
 [tool.poetry.dependencies]
 python = "^3.10"
